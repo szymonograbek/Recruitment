@@ -34,12 +34,12 @@ const CenteredDiv = ContentWrapper.extend`
 const OffersList = props => (
   <div>
     <CenteredDiv>
-      <Heading>{props.list.heading}</Heading>
-      <Subheading>{props.list.subheading}</Subheading>
+      <Heading>{props.data.heading}</Heading>
+      <Subheading>{props.data.subheading}</Subheading>
       <SmallSeparator margin="15px 0 0 0 " />
     </CenteredDiv>
     <ListWrapper>
-      {props.list.map(offer => {
+      {props.data.offers.map(offer => {
         return <Offer key={offer.id} data={offer} />
       })}
     </ListWrapper>
@@ -47,7 +47,7 @@ const OffersList = props => (
 )
 
 OffersList.propTypes = {
-  list: PropTypes.array.isRequired,
+  data: PropTypes.object.isRequired,
 }
 
 export default OffersList

@@ -12,7 +12,7 @@ const SiteWrapper = styled.div`
 const IndexPage = ({ data }) => (
   <SiteWrapper>
     <Hero data={data.contentfulLayout.hero} />
-    <OffersList list={data.contentfulLayout.offers.offers} />
+    <OffersList data={data.contentfulLayout.offers} />
   </SiteWrapper>
 )
 
