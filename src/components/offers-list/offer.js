@@ -37,6 +37,7 @@ const Description = styled.p`
   margin: 0;
   margin-top: 20px;
   font-family: 'Open Sans';
+  font-weight: normal;
   line-height: 1.54;
   color: #777777;
 `

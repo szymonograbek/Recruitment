@@ -42,6 +42,7 @@ const Title = styled.h1`
 const Description = styled.p`
   margin: 0;
   font-family: 'Open Sans';
+  font-weight: normal;
   line-height: 1.54;
   color: #777777;
 `

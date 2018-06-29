@@ -11,9 +11,6 @@ injectGlobal`
     font-family: Raleway;
     font-weight: bold;
     font-size: 13px;
-    font-smoothing: antialiased;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
  }
 `
 
