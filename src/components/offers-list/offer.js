@@ -27,9 +27,8 @@ const TextSection = styled.section`
 `
 
 const Heading = styled.h1`
-    margin: 0;
-    font-size: 18px;
-    font-weight 800;
+  margin: 0;
+  font-size: 18px;
 `
 
 const Description = styled.p`
